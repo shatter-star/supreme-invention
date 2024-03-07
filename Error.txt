@@ -1,0 +1,21 @@
+INFO:     Application startup complete.
+INFO:     127.0.0.1:34220 - "GET /docs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34220 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34220 - "GET /docs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34220 - "GET /openapi.json HTTP/1.1" 200 OK
+2024-03-07 17:51:52,450 - models.neural_style_transfer - INFO - Using VGG19 in the optimization procedure.
+/home/siddharth/miniconda3/envs/chuddam/lib/python3.8/site-packages/torch/nn/modules/loss.py:520: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([1, 64, 64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+2024-03-07 17:51:55,550 - models.neural_style_transfer - INFO - L-BFGS | iteration: 000, total loss=201928589312.0000, content_loss=      0.0000, style loss=201921300000.0000, tv loss=7292746.0000
+2024-03-07 17:51:56,945 - models.neural_style_transfer - INFO - L-BFGS | iteration: 001, total loss=201928556544.0000, content_loss=      0.0001, style loss=201921270000.0000, tv loss=7292746.0000
+2024-03-07 17:51:58,440 - models.neural_style_transfer - INFO - L-BFGS | iteration: 002, total loss=201928441856.0000, content_loss=      0.0002, style loss=201921150000.0000, tv loss=7292746.0000
+2024-03-07 17:51:59,856 - models.neural_style_transfer - INFO - L-BFGS | iteration: 003, total loss=201927622656.0000, content_loss=      0.0014, style loss=201920325000.0000, tv loss=7292746.0000
+2024-03-07 17:52:01,308 - models.neural_style_transfer - INFO - L-BFGS | iteration: 004, total loss=201923100672.0000, content_loss=      0.0354, style loss=201915810000.0000, tv loss=7292755.0000
+2024-03-07 17:52:02,735 - models.neural_style_transfer - INFO - L-BFGS | iteration: 005, total loss=201906880512.0000, content_loss=      0.5560, style loss=201899595000.0000, tv loss=7292782.0000
+2024-03-07 17:52:04,162 - models.neural_style_transfer - INFO - L-BFGS | iteration: 006, total loss=201809035264.0000, content_loss=     16.8290, style loss=201801750000.0000, tv loss=7292945.5000
+2024-03-07 17:52:05,549 - models.neural_style_transfer - INFO - L-BFGS | iteration: 007, total loss=200736227328.0000, content_loss=   1682.2495, style loss=200728935000.0000, tv loss=7294738.5000
+2024-03-07 17:52:06,973 - models.neural_style_transfer - INFO - L-BFGS | iteration: 008, total loss=195456991232.0000, content_loss=  50840.8010, style loss=195449640000.0000, tv loss=7303713.0000
+2024-03-07 17:52:08,419 - models.neural_style_transfer - INFO - L-BFGS | iteration: 009, total loss=168996749312.0000, content_loss=1549669.0750, style loss=168987840000.0000, tv loss=7353220.5000
+2024-03-07 17:52:09,918 - models.neural_style_transfer - INFO - L-BFGS | iteration: 010, total loss=84126040064.0000, content_loss=62532958.9844, style loss=84055387500.0000, tv loss=8123811.0000
+2024-03-07 17:52:11,373 - models.neural_style_transfer - INFO - L-BFGS | iteration: 011, total loss=66794536960.0000, content_loss=150748059.0820, style loss=66634582500.0000, tv loss=9202130.0000
+INFO:     127.0.0.1:36978 - "POST /style_transfer/ HTTP/1.1" 200 OK

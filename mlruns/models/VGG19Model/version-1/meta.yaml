@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1709812588270
+current_stage: None
+description: null
+last_updated_timestamp: 1709812588270
+name: VGG19Model
+run_id: 8d2c06bad9364d199c773a0b49cd36f6
+run_link: null
+source: file:///home/siddharth/Desktop/alt-style-transfer/mlruns/890079324559759060/8d2c06bad9364d199c773a0b49cd36f6/artifacts/model
+status: READY
+status_message: null
+storage_location: file:///home/siddharth/Desktop/alt-style-transfer/mlruns/890079324559759060/8d2c06bad9364d199c773a0b49cd36f6/artifacts/model
+user_id: null
+version: 1

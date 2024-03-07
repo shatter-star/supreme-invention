@@ -1,0 +1,11 @@
+content_weight: 100000.0
+style_weight: 30000.0
+tv_weight: 1.0
+content_images_dir: data/content-images
+content_img_name: a1.jpg
+style_images_dir: data/style-images
+style_img_name: b1.jpg
+output_img_dir: data/output-images
+height: 400
+img_format: [4, '.jpg']
+num_iterations: 10

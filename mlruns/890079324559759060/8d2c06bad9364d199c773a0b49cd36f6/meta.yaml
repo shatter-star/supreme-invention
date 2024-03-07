@@ -1,0 +1,15 @@
+artifact_uri: file:///home/siddharth/Desktop/alt-style-transfer/mlruns/890079324559759060/8d2c06bad9364d199c773a0b49cd36f6/artifacts
+end_time: 1709812588798
+entry_point_name: ''
+experiment_id: '890079324559759060'
+lifecycle_stage: active
+run_id: 8d2c06bad9364d199c773a0b49cd36f6
+run_name: rare-stag-440
+run_uuid: 8d2c06bad9364d199c773a0b49cd36f6
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1709812559120
+status: 3
+tags: []
+user_id: siddharth
