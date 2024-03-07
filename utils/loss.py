@@ -12,7 +12,7 @@ def build_loss(neural_net, optimizing_img, target_representations, content_featu
     style_loss = 0.0
     current_style_representation = [gram_matrix(x) for cnt, x in enumerate(current_set_of_feature_maps) if cnt in style_feature_maps_indices]
     for gram_gt, gram_hat in zip(target_style_representation, current_style_representation):
-        style_loss += torch.nn.MSELoss(reduction='sum')(gram_gt[0], gram_hat[0])
+        style_loss += torch.nn.MSELoss(reduction='sum')(gram_gt[0].squeeze(0), gram_hat[0].squeeze(0))  
     style_loss /= len(target_style_representation)
     
     tv_loss = total_variation(optimizing_img)
